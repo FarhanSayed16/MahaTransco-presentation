@@ -1,0 +1,16 @@
+{
+  "id": "19-voice",
+  "title": "Instant Voice",
+  "act": "III",
+  "flags": ["optional", "wow"],
+  "layout": "voice-generation",
+  "content": {
+    "headline": "AI voice — instant citizen advisories in any language",
+    "body": "Paste a short advisory, generate a Marathi or Hindi voiceover in seconds. Always label synthetic voice before publishing in official channels.",
+    "bullets": [
+      "Write a 20–30 second citizen advisory script",
+      "Generate with ElevenLabs or similar tool on Wi-Fi",
+      "Always label: \"This audio was generated using AI\""
+    ]
+  }
+}

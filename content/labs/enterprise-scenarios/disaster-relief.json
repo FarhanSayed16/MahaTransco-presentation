@@ -1,0 +1,9 @@
+{
+  "id": "disaster-relief",
+  "title": "Disaster Relief Staging",
+  "role": "Control Room Desk Officer supporting the District Disaster Management Authority",
+  "context": "Heavy rainfall has triggered a flood-alert window for the next 48 hours. Relief staging areas are being prepared with boats, medical kits, and power backup for shelters. Field reports are incomplete; social media claims of \"total blackout\" are unverified. Leadership needs an internal action brief for taluka control rooms.",
+  "task": "Produce an internal 48-hour staging brief: priorities, coordination checklist, citizen messaging dos/don'ts, and a rumour-control line for official channels.",
+  "constraints": "Maximum 400 words. No invented casualty counts, GPS pins, or stock levels. Separate confirmed vs [VERIFY]. Tone: urgent but orderly. Do not paste personal citizen data.",
+  "format": "Sections: Situation (known) | Immediate actions (0–6h) | Next 48h | Communications rules | Escalation contacts as [PLACEHOLDER]."
+}

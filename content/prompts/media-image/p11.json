@@ -1,0 +1,8 @@
+{
+  "id": "p11",
+  "title": "Image prompt - Engineer",
+  "promptText": "Generate a realistic photograph of an electrical transmission engineer inspecting outdoor switchyard equipment during daytime.\n\nSubject: adult engineer in PPE (helmet, high-visibility vest, safety boots), holding a clipboard or tablet, standing at a respectful safe distance from equipment.\n\nSetting: Indian state utility switchyard; clean, orderly, professional atmosphere.\n\nStyle: editorial documentary, natural lighting, 35mm look, muted colours.\n\nStrict exclusions:\n- No celebrity or politician likenesses\n- No readable name badges, IDs, or Aadhaar-like cards\n- No brand logos on equipment\n- No dramatised sparks, explosions, or accidents\n- No text in the image\n\nPurpose: illustration for internal training on field inspection discipline — not a stock \"hero\" poster.",
+  "toolId": "midjourney",
+  "category": "Media",
+  "type": "lab"
+}

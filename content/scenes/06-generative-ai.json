@@ -1,0 +1,16 @@
+{
+  "id": "06-generative-ai",
+  "title": "What is Generative AI",
+  "act": "II",
+  "flags": ["core"],
+  "layout": "concept",
+  "content": {
+    "headline": "What is Generative AI?",
+    "body": "AI that writes, draws, or speaks — guided by what you ask it. Think of it as a very fast assistant who needs clear instructions every time.",
+    "bullets": [
+      "You give it a prompt → the model creates a response",
+      "It predicts likely answers — it does not \"know\" facts like a database",
+      "Better instructions = better output, every single time"
+    ]
+  }
+}

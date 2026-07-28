@@ -1,0 +1,22 @@
+[
+  {
+    "step": "Zero-shot",
+    "prompt": "Write an email about the power outage."
+  },
+  {
+    "step": "Role",
+    "prompt": "You are the Chief Engineer at Mahatransco. Write an email about the power outage."
+  },
+  {
+    "step": "Few-shot",
+    "prompt": "You are the Chief Engineer at Mahatransco. Write an email about the power outage.\n\nExample:\nSubject: Outage at Substation A\nBody: The outage was due to a transformer failure.\n\nNow write one for Substation B."
+  },
+  {
+    "step": "Constraints",
+    "prompt": "You are the Chief Engineer at Mahatransco. Write an email about the power outage.\n\nExample:\nSubject: Outage at Substation A\nBody: The outage was due to a transformer failure.\n\nNow write one for Substation B. Keep it under 50 words. Do not use jargon."
+  },
+  {
+    "step": "Chain of Thought",
+    "prompt": "You are the Chief Engineer at Mahatransco. Write an email about the power outage.\n\nExample:\nSubject: Outage at Substation A\nBody: The outage was due to a transformer failure.\n\nNow write one for Substation B. Keep it under 50 words. Do not use jargon.\n\nThink step-by-step: first identify the audience, then draft the core message, then review against the constraints."
+  }
+]

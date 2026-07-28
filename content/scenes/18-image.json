@@ -1,0 +1,16 @@
+{
+  "id": "18-image",
+  "title": "Instant Image",
+  "act": "III",
+  "flags": ["core", "wow"],
+  "layout": "image-generation",
+  "content": {
+    "headline": "Before you trust an image — ask: is this real?",
+    "body": "AI can produce documentary-looking photographs from a two-line prompt in seconds. That is useful for first-draft campaign visuals — and it is exactly why verification habits matter.",
+    "bullets": [
+      "Hook: would you believe this was a real photograph?",
+      "Demo: flood-relief / infrastructure staging scene (no real official faces)",
+      "Open Gemini, Midjourney, or ChatGPT Images — humans still approve before publish"
+    ]
+  }
+}

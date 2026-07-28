@@ -1,0 +1,12 @@
+{
+  "id": "28-closing",
+  "title": "Closing",
+  "act": "V",
+  "flags": ["core"],
+  "layout": "quote",
+  "content": {
+    "headline": "AI will not replace officers. Officers who understand AI will outperform those who don't.",
+    "body": "Everything you saw is free or nearly free, works in regional languages, and takes minutes to learn. The real cost is discipline: verify before you rely, and know what never to share.",
+    "quote": "AI will not replace officers. Officers who understand AI will outperform those who don't."
+  }
+}

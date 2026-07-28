@@ -1,0 +1,8 @@
+{
+  "id": "p06",
+  "title": "3-minute speaking notes",
+  "promptText": "Convert the long report / circular / briefing note below into speaking notes for a 3-minute oral briefing to senior officers.\n\nAudience: administrative leadership (IAS / senior engineers / circle heads).\n\nProduce:\n1. Opening line (10 seconds) — why this matters now\n2. Three key points (45 seconds each) — each with one supporting fact from the source\n3. Risks / open issues (30 seconds)\n4. Recommended next action (20 seconds) — one clear ask\n5. Optional Q-bank: 3 likely questions with short answer cues\n\nRules:\n- Speakable language; short clauses; no dense paragraphs.\n- Do not invent statistics. If a figure is missing, write [VERIFY].\n- Highlight anything that looks like an AI guess with [VERIFY].\n- Total speaking notes under 350 words.\n\nSOURCE DOCUMENT:\n[Paste or summarise the report]",
+  "toolId": "claude",
+  "category": "Writing",
+  "type": "lab"
+}

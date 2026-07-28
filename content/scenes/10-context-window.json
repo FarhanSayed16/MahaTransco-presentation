@@ -1,0 +1,16 @@
+{
+  "id": "10-context-window",
+  "title": "Context Window Meter",
+  "act": "II",
+  "flags": ["core", "optional"],
+  "layout": "concept",
+  "content": {
+    "headline": "Context Window: how much can AI read at once?",
+    "body": "A bigger memory helps, but for 200-page policy documents, retrieval (RAG) still works better than pasting everything in.",
+    "bullets": [
+      "8K tokens → a short memo or one-page letter",
+      "128K tokens → a thick file, but AI may miss details in the middle",
+      "1–2M tokens → book-length, but still verify — never trust a blind paste"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "07-llm-vs-slm",
+  "title": "LLM vs SLM",
+  "act": "II",
+  "flags": ["core"],
+  "layout": "compare",
+  "content": {
+    "headline": "Cloud AI vs Local AI — where does your data go?",
+    "body": "This is a security decision, not a technology choice. Pick based on how sensitive the data is.",
+    "bullets": [
+      "Cloud AI (GPT-4, Claude, Gemini): most powerful, but your data leaves the building",
+      "Local AI (Llama, Gemma, Phi): runs on your laptop, data stays private — ideal for sensitive files",
+      "Rule of thumb: classify the data first, then choose the tool"
+    ]
+  }
+}

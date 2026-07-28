@@ -1,0 +1,8 @@
+{
+  "id": "p25",
+  "title": "Deepfake public clarification (fictional)",
+  "promptText": "You are drafting for a Public Information Officer.\n\nScenario (FICTIONAL): A WhatsApp forward claims to be a voice note from a senior officer ordering immediate feeder shutdowns. It has not been verified.\n\nDraft a 90-word clarification for official channels that:\n- Does not amplify the fake audio\n- Asks citizens to ignore unverified forwards\n- Points only to official MahaTransco channels\n- Avoids naming any real living official\n- Reminds staff of the PAUSE → VERIFY habit\n\nMark any operational facts as [VERIFY].",
+  "toolId": "chatgpt",
+  "category": "Safety",
+  "type": "lab"
+}

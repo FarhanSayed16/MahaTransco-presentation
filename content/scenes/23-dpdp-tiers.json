@@ -1,0 +1,18 @@
+{
+  "id": "23-dpdp-tiers",
+  "title": "DPDP Tiers",
+  "act": "IV",
+  "flags": ["core", "lab"],
+  "layout": "dpdp-tiers",
+  "content": {
+    "headline": "Classify first — then choose the AI",
+    "body": "Treat every free public AI tool like an open phone line. Before you paste, ask: would I be comfortable if this exact text appeared on a public website tomorrow?",
+    "bullets": [
+      "Never upload to free AI: Aadhaar / citizen IDs, FIR or evidence, Cabinet drafts, medical records, tender evaluation sheets, unpublished financials, citizen PII combos",
+      "Tier 1 Public → consumer AI is fine",
+      "Tier 2 Internal → enterprise AI with a no-training clause",
+      "Tier 3 Confidential → local / on-prem SLM only",
+      "Tier 4 Classified → air-gapped; no consumer or cloud AI"
+    ]
+  }
+}

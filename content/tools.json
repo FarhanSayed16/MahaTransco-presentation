@@ -1,0 +1,14 @@
+[
+  { "id": "chatgpt", "name": "ChatGPT", "url": "https://chatgpt.com", "category": "Writing & Reasoning" },
+  { "id": "claude", "name": "Claude", "url": "https://claude.ai", "category": "Writing & Reasoning" },
+  { "id": "gemini", "name": "Gemini", "url": "https://gemini.google.com", "category": "Writing & Images" },
+  { "id": "perplexity", "name": "Perplexity", "url": "https://perplexity.ai", "category": "Research" },
+  { "id": "notebooklm", "name": "NotebookLM", "url": "https://notebooklm.google.com", "category": "Documents & RAG" },
+  { "id": "runway", "name": "Runway", "url": "https://runwayml.com", "category": "Video" },
+  { "id": "gamma", "name": "Gamma", "url": "https://gamma.app", "category": "Presentations" },
+  { "id": "notion", "name": "Notion AI", "url": "https://notion.so", "category": "Workspace" },
+  { "id": "midjourney", "name": "Midjourney", "url": "https://midjourney.com", "category": "Images" },
+  { "id": "descript", "name": "Descript", "url": "https://descript.com", "category": "Audio/Video" },
+  { "id": "elevenlabs", "name": "ElevenLabs", "url": "https://elevenlabs.io", "category": "Voice" },
+  { "id": "heygen", "name": "HeyGen", "url": "https://heygen.com", "category": "Avatars" }
+]

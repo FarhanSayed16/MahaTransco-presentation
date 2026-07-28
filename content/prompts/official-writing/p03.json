@@ -1,0 +1,8 @@
+{
+  "id": "p03",
+  "title": "D.O. tone rewrite",
+  "promptText": "Rewrite the text below as a formal Demi-Official (D.O.) letter from a senior MahaTransco / district administration officer to a peer officer.\n\nPreserve the factual intent. Improve tone, structure, and clarity.\n\nD.O. conventions to follow:\n- Opening: respectful personal address (Dear Shri/Smt. …)\n- Purpose in the first paragraph\n- Context and urgency in the second\n- Specific request / coordination needed in the third\n- Closing: courtesy line + signature block placeholders\n- Avoid bureaucratic padding and legal preamble\n- Do not invent designations, dates, or file numbers — use [PLACEHOLDER] where needed\n- Length: 120–180 words\n\nMark any claim that needs confirmation as [VERIFY].\n\nSOURCE TEXT:\n[Paste informal memo or email]",
+  "toolId": "claude",
+  "category": "Writing",
+  "type": "lab"
+}

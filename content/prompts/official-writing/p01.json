@@ -1,0 +1,8 @@
+{
+  "id": "p01",
+  "title": "Power shutdown advisory",
+  "promptText": "You are the Public Information Officer for Maharashtra State Electricity Transmission Company Limited (MahaTransco).\n\nDraft a public safety advisory for a scheduled power shutdown with the following facts:\n- Area: parts of Pune Rural Circle (list as \"selected feeders under [Circle]\")\n- Date and window: tonight, 22:00 to 02:00 IST\n- Reason: planned maintenance on 220 kV line bay\n- Essential services: hospitals and critical installations to be informed via local field offices\n\nRequirements:\n1. Formal, calm, citizen-facing tone suitable for website, WhatsApp broadcast, and press note.\n2. Include: what is affected, when, why, what citizens should do, and where to get official updates.\n3. Explicitly say updates come only from official MahaTransco channels.\n4. Keep under 180 words. Use short paragraphs. No invented phone numbers or feeder names.\n5. End with a one-line apology for inconvenience.",
+  "toolId": "chatgpt",
+  "category": "Writing",
+  "type": "lab"
+}

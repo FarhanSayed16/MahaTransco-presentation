@@ -1,0 +1,8 @@
+{
+  "id": "p13",
+  "title": "DPDP classification",
+  "promptText": "You are helping an Indian government / PSU officer apply a practical DPDP-aligned data sensitivity check before using any AI tool.\n\nClassify each item in the list below into Tier 1–4 and justify in one sentence:\n\nTier 1 — Public: gazetted / published / press content → consumer AI OK\nTier 2 — Internal: drafts, memos, non-public schemes → enterprise AI + no-training clause preferred\nTier 3 — Confidential: PII, Aadhaar-linked data, FIRs, tender evaluations, unpublished financials → on-prem / local SLM only\nTier 4 — Classified: cabinet / national security grade → air-gapped only\n\nAlso answer:\n1. May this content be pasted into ChatGPT / Claude consumer chat? Yes/No\n2. Safer alternative workflow if No\n3. Redaction checklist before any upload\n\nOutput as a table: Item | Tier | Why | Consumer AI? | Next step\n\nITEMS:\n[Paste document titles, field names, or short excerpts — redact real PII first]",
+  "toolId": "chatgpt",
+  "category": "Safety",
+  "type": "lab"
+}

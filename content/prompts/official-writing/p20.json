@@ -1,0 +1,8 @@
+{
+  "id": "p20",
+  "title": "RTI routine reply draft",
+  "promptText": "You are assisting a Public Information Officer at a state transmission utility.\n\nDraft a polite, formal first-reply template for a routine RTI application seeking already-published tariff / circular information.\n\nConstraints:\n- Do not invent section numbers of the RTI Act — mark as [VERIFY legal cell]\n- Tone: courteous, precise, non-defensive\n- Max 150 words\n- Include placeholders for registration number, date, and enclosure list\n- End by stating that the reply is a draft for PIO review before issue",
+  "toolId": "chatgpt",
+  "category": "Writing",
+  "type": "lab"
+}

@@ -1,0 +1,5 @@
+{
+  "demoName": "MahaTransco multi-channel outage advisory",
+  "cascadeFile": "cascade.json",
+  "note": "Wi-Fi live demo — copy prompts from cascade.json. No offline screenshot pack required."
+}

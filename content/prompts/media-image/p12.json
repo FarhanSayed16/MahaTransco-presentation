@@ -1,0 +1,8 @@
+{
+  "id": "p12",
+  "title": "Video script prompt",
+  "promptText": "Write a 30–40 second AI avatar video script for a MahaTransco public safety briefing.\n\nTopic: why citizens must treat transmission towers and substation fences as restricted areas.\n\nScript requirements:\n1. Opening greeting in simple English (optionally note a Marathi version can follow)\n2. One clear safety message\n3. Two concrete do's and one don't\n4. Where to report unsafe activity near towers (use placeholder: official MahaTransco / local police channel — do not invent numbers)\n5. Closing thank-you\n\nFormat the output as:\n- On-screen title (max 6 words)\n- Spoken script with approximate timing marks (0:00 / 0:10 / 0:20 / 0:30)\n- Suggested avatar tone: calm, authoritative, non-alarmist\n- Disclosure line to display: \"This video uses an AI-generated presenter for public awareness.\"\n\nDo not invent statistics or incident stories.",
+  "toolId": "heygen",
+  "category": "Media",
+  "type": "lab"
+}

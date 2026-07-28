@@ -1,0 +1,8 @@
+{
+  "id": "p23",
+  "title": "NotebookLM — deadlines with pages",
+  "promptText": "List every deadline, date, or time-bound action mentioned in this document, with the page number for each.",
+  "toolId": "notebooklm",
+  "category": "Research",
+  "type": "demo"
+}

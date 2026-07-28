@@ -1,0 +1,17 @@
+{
+  "id": "27-resource-pack",
+  "title": "Resource Pack",
+  "act": "V",
+  "flags": ["core"],
+  "layout": "resource-pack",
+  "content": {
+    "headline": "MahaTransco Officer Toolkit — take it home",
+    "body": "Cheat sheet, never-upload list, playbook, verification checklist, and the Prompt Playground. Scan the QR or open the links.",
+    "bullets": [
+      "One-page cheat sheet (tools · privacy · verify · deepfake)",
+      "Never-upload checklist + Officer OS playbook",
+      "Prompt Playground with multi-channel and NotebookLM packs",
+      "Q&A bank for presenters (content/notes/qna.md)"
+    ]
+  }
+}

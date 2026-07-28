@@ -1,0 +1,16 @@
+{
+  "id": "22-hallucination-clinic",
+  "title": "Hallucination Clinic",
+  "act": "IV",
+  "flags": ["core"],
+  "layout": "hallucination-clinic",
+  "content": {
+    "headline": "Hallucination Clinic — when AI sounds right but is wrong",
+    "body": "AI can write something that sounds perfect but is completely wrong. You are still the signing authority — always verify before you send.",
+    "bullets": [
+      "Never publish AI-generated budget figures, legal sections, or citizen names without checking the original file",
+      "Compare: an ungrounded AI answer vs a RAG answer with page citations",
+      "Golden rule: human-in-the-loop is non-negotiable for government work"
+    ]
+  }
+}

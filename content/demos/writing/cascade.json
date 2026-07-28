@@ -1,0 +1,31 @@
+{
+  "demoName": "MahaTransco multi-channel outage advisory",
+  "basePrompt": "You are a communications officer at Maharashtra State Electricity Transmission Co. Ltd. (MahaTransco).\n\nDraft a public advisory informing citizens that planned maintenance may affect power supply in selected areas over the next three days due to monsoon-related line work.\n\nConstraints:\n- Formal, calm, clear tone suitable for a District / circle office notice\n- Max 120 words\n- Include placeholders for date window, affected areas, and helpline — do not invent feeder names, village lists, or phone numbers (use [VERIFY] / [TBD])\n- End with: rely only on official MahaTransco channels",
+  "steps": [
+    {
+      "id": "english",
+      "label": "1. English circular",
+      "prompt": "You are a communications officer at Maharashtra State Electricity Transmission Co. Ltd. (MahaTransco).\n\nDraft a public advisory informing citizens that planned maintenance may affect power supply in selected areas over the next three days due to monsoon-related line work.\n\nConstraints:\n- Formal, calm, clear tone suitable for a District / circle office notice\n- Max 120 words\n- Include placeholders for date window, affected areas, and helpline — do not invent feeder names, village lists, or phone numbers (use [VERIFY] / [TBD])\n- End with: rely only on official MahaTransco channels"
+    },
+    {
+      "id": "marathi",
+      "label": "2. Marathi",
+      "prompt": "Convert the previous English advisory into Marathi (Devanagari), keeping it formal enough for an official citizen notice. Do not invent new facts."
+    },
+    {
+      "id": "hindi",
+      "label": "3. Hindi",
+      "prompt": "Now translate the original English advisory into Hindi, same formal tone. Do not invent new facts."
+    },
+    {
+      "id": "whatsapp",
+      "label": "4. WhatsApp",
+      "prompt": "Rewrite the English advisory as a short WhatsApp broadcast message, under 40 words, suitable for a citizen group. Keep the official-channels line."
+    },
+    {
+      "id": "social",
+      "label": "5. X / Twitter",
+      "prompt": "Rewrite the English advisory as a post for MahaTransco's official social account, under 280 characters, with one appropriate hashtag. No invented phone numbers."
+    }
+  ]
+}

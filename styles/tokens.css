@@ -1,0 +1,36 @@
+:root {
+  /* Base palette */
+  --bg: #F8FAFC;
+  --surface: #FFFFFF;
+  --surface-muted: #F1F5F9;
+  --ink: #0F172A;
+  --ink-muted: #64748B;
+  --line: #E2E8F0;
+
+  /* Brand */
+  --navy: #0B1F3A;
+  --navy-soft: #E8EEF6;
+  --accent: #0D9488;
+  --accent-soft: #CCFBF1;
+  --warn: #C2410C;
+  --warn-soft: #FFF7ED;
+  --good: #059669;
+  --bad: #DC2626;
+
+  /* Gradient orbs (subtle background glow) — slightly stronger for projector presence */
+  --glow-1: rgba(13, 148, 136, 0.11);
+  --glow-2: rgba(11, 31, 58, 0.08);
+  --glow-3: rgba(13, 148, 136, 0.05);
+
+  /* Act accent tints */
+  --act-i:   rgba(13, 148, 136, 0.04);
+  --act-ii:  rgba(13, 148, 136, 0.04);
+  --act-iii: rgba(13, 148, 136, 0.04);
+  --act-iv:  rgba(13, 148, 136, 0.04);
+  --act-v:   rgba(13, 148, 136, 0.04);
+
+  /* Dot grid */
+  --dot-color: rgba(15, 23, 42, 0.055);
+  --dot-size: 1.25px;
+  --dot-gap: 28px;
+}

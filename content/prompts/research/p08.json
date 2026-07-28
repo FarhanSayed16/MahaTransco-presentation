@@ -1,0 +1,8 @@
+{
+  "id": "p08",
+  "title": "Factual scrub",
+  "promptText": "Act as a verification officer. Scrub the draft below for factual risk before senior approval.\n\nCheck and report in a table with columns: Claim | Risk (High/Med/Low) | Why | Suggested fix | Status (Keep / Edit / Remove / [VERIFY]).\n\nFocus on:\n1. Numbers, dates, percentages, and budget figures\n2. Legal section citations and rule names\n3. Names of persons, villages, feeders, contractors\n4. Absolute statements (\"always\", \"never\", \"all citizens\")\n5. Comparisons with other states / utilities without sources\n6. Anything that could mislead citizens if published\n\nThen rewrite a cleaned draft that:\n- Removes or brackets unverified claims as [VERIFY]\n- Preserves the officer's intent\n- Stays under the original length\n\nDo not invent replacement facts.\n\nDRAFT TO SCRUB:\n[Paste draft]",
+  "toolId": "perplexity",
+  "category": "Research",
+  "type": "lab"
+}

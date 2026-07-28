@@ -1,0 +1,16 @@
+{
+  "id": "13-enterprise-builder",
+  "title": "Enterprise Prompt Builder",
+  "act": "III",
+  "flags": ["core", "wow", "lab"],
+  "layout": "enterprise-builder",
+  "content": {
+    "headline": "Build your own enterprise prompt",
+    "body": "Fill in five fields — Role, Context, Task, Constraints, Format — then click Assemble, Copy, and open it in ChatGPT or Claude.",
+    "bullets": [
+      "Try scenarios: land records, load shedding, disaster relief, citizen charter",
+      "Keep constraints tight — set word count, tone, and ban invented facts",
+      "Remember: AI drafts it, but the officer is still the signing authority"
+    ]
+  }
+}

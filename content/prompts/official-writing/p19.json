@@ -1,0 +1,8 @@
+{
+  "id": "p19",
+  "title": "Multi-channel outage cascade",
+  "promptText": "You are a communications officer at MahaTransco.\n\nDraft a formal citizen advisory (max 120 words) that planned maintenance may affect power supply in selected areas over the next three days. Use [VERIFY] for date window, areas, and helpline — invent nothing.\n\nAfter the English draft, wait for my follow-ups. I will ask you to: (1) convert to Marathi, (2) translate to Hindi, (3) rewrite as WhatsApp under 40 words, (4) rewrite as an official social post under 280 characters with one hashtag.",
+  "toolId": "chatgpt",
+  "category": "Writing",
+  "type": "demo"
+}

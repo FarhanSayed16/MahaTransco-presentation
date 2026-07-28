@@ -1,0 +1,26 @@
+[
+  {
+    "step": "PAUSE",
+    "desc": "Stop the forward impulse. Urgency (\"share in 10 minutes or else\") is a classic trap. Do not act on operational orders that arrive only as a viral video or voice note."
+  },
+  {
+    "step": "SOURCE",
+    "desc": "Who sent this, and through which channel? Prefer verified official MahaTransco / district handles, signed circulars, or known control-room numbers. Anonymous forwards and unknown groups fail this step."
+  },
+  {
+    "step": "INSPECT",
+    "desc": "Look and listen: lip-sync mismatches, flat or robotic audio, unnatural blinks, warped edges, inconsistent lighting, or captions that don't match speech. One artifact is a warning; several are a stop sign. Also look for mandated SGI labels on platform content."
+  },
+  {
+    "step": "SEARCH",
+    "desc": "Check official website/app posts, reverse-image or reverse-video search where available, and whether a matching advisory already exists with different wording. Note timestamps and earlier originals."
+  },
+  {
+    "step": "VERIFY",
+    "desc": "Confirm via a second official path: call the known control room / PIO / IT cell, or wait for a signed message on the designated channel. Never verify by replying to the same forwarded thread."
+  },
+  {
+    "step": "ESCALATE",
+    "desc": "Report suspected deepfakes to the IT / cyber cell through proper channels. Do not publicly react first — especially when a named official or law-and-order claim is involved."
+  }
+]

@@ -1,0 +1,124 @@
+@import "tailwindcss";
+@import "../styles/tokens.css";
+
+@theme {
+  --font-display: var(--font-fraunces), serif;
+  --font-sans: var(--font-manrope), sans-serif;
+
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-muted: var(--surface-muted);
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-line: var(--line);
+  --color-navy: var(--navy);
+  --color-navy-soft: var(--navy-soft);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-warn: var(--warn);
+  --color-warn-soft: var(--warn-soft);
+  --color-good: var(--good);
+  --color-bad: var(--bad);
+}
+
+@layer base {
+  body {
+    background-color: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-sans);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+/* === Atmosphere image layers === */
+.workshop-atmosphere {
+  background-color: var(--bg);
+}
+
+.workshop-veil {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  /* Soft white center so navy type stays readable; edges keep the art */
+  background:
+    radial-gradient(ellipse 70% 60% at 50% 45%, rgba(255, 255, 255, 0.88) 0%, rgba(255, 255, 255, 0.55) 45%, rgba(248, 250, 252, 0.25) 75%, transparent 100%),
+    linear-gradient(180deg, rgba(248, 250, 252, 0.35) 0%, transparent 30%, transparent 70%, rgba(248, 250, 252, 0.55) 100%);
+  pointer-events: none;
+}
+
+.workshop-atmosphere-hero .workshop-veil {
+  background:
+    radial-gradient(ellipse 65% 55% at 50% 42%, rgba(255, 255, 255, 0.78) 0%, rgba(255, 255, 255, 0.42) 50%, transparent 78%),
+    linear-gradient(180deg, rgba(11, 31, 58, 0.04) 0%, transparent 40%, rgba(248, 250, 252, 0.4) 100%);
+}
+
+.workshop-edge-fade {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  box-shadow: inset 0 0 120px rgba(248, 250, 252, 0.35);
+}
+
+.act-tint-I,
+.act-tint-II,
+.act-tint-III,
+.act-tint-IV,
+.act-tint-V {
+  /* Act tint sits under the image via background color peeking at edges */
+}
+
+.act-tint-I { background-color: var(--act-i); }
+.act-tint-II { background-color: var(--act-ii); }
+.act-tint-III { background-color: var(--act-iii); }
+.act-tint-IV { background-color: var(--act-iv); }
+.act-tint-V { background-color: var(--act-v); }
+
+.scene-stage {
+  position: relative;
+  z-index: 2;
+}
+
+.card-lift {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.accent-border-left {
+  border-left: 3px solid var(--accent);
+}
+
+.icon-bullet {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+.icon-bullet svg {
+  flex-shrink: 0;
+  margin-top: 0.15rem;
+  color: var(--accent);
+}
+
+/* Glass chrome for shell bars */
+.shell-glass {
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}

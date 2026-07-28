@@ -1,0 +1,9 @@
+{
+  "id": "load-shedding",
+  "title": "Load Shedding Advisory",
+  "role": "Public Information Officer, MahaTransco (coordination with DISCOM field offices)",
+  "context": "Planned maintenance on a 220 kV bay may cause supply interruptions in selected areas tonight between 22:00 and 02:00 IST. Hospitals and critical installations are being informed via circle offices. Rumours are already circulating on WhatsApp with wrong timings.",
+  "task": "Draft a citizen-facing public advisory suitable for website, press note, and official WhatsApp broadcast. Clarify that updates come only from official channels.",
+  "constraints": "Under 180 words. Calm, non-alarmist tone. No invented feeder names or phone numbers. Distinguish TRANSco planned work vs any DISCOM distribution messaging using placeholders if needed. Include [VERIFY] for any missing fact.",
+  "format": "Short paragraphs: What / When / Why / What citizens should do / Official update source / Apology line."
+}

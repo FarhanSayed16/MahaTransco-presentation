@@ -1,0 +1,8 @@
+{
+  "id": "p02",
+  "title": "Meeting to decision minutes",
+  "promptText": "You are an Executive Assistant to a senior administrative officer in the power transmission sector.\n\nConvert the rough meeting notes below into formal Decision Minutes suitable for file noting and circulation to Circle / Division offices.\n\nStructure the output as:\n1. Meeting title, date, venue (use placeholders if missing)\n2. Chair and key attendees (roles, not personal commentary)\n3. Agenda items (numbered)\n4. Discussion summary — max 3 bullets per agenda item\n5. Decisions taken — imperative, accountable, with owner and target date\n6. Action points table: Action | Owner | Deadline | Status (Open)\n7. Next review date\n\nRules:\n- Do not invent financial figures, legal citations, or attendance.\n- Flag any unclear item as [VERIFY].\n- Use formal Indian administrative English.\n- Keep total length under 450 words.\n\nPASTE NOTES HERE:\n[Paste transcript or rough notes]",
+  "toolId": "claude",
+  "category": "Writing",
+  "type": "lab"
+}

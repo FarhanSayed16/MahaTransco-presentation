@@ -1,0 +1,18 @@
+{
+  "id": "24-it-rules",
+  "title": "IT Rules",
+  "act": "IV",
+  "flags": ["core"],
+  "layout": "it-rules",
+  "content": {
+    "headline": "Synthetically Generated Information (SGI) — what the rules expect",
+    "body": "IT Rules amendments (notified Feb 2026) treat deepfakes and other AI-altered audio/visual content as SGI. Platforms must label it clearly; officers must verify before they amplify.",
+    "bullets": [
+      "SGI must carry a persistent label for its entire duration — not a one-time watermark that can be stripped",
+      "Where feasible, provenance / metadata should identify synthetic origin",
+      "Worst non-consensual intimate deepfake content: platforms face a 2-hour takedown window",
+      "IndiaAI Governance Guidelines (Nov 2025): Do No Harm — human judgment still decides sensitive-data use",
+      "Your duty: label official synthetic media, verify viral forwards via official channels, escalate — do not amplify"
+    ]
+  }
+}

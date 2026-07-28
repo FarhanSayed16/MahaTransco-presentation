@@ -1,0 +1,17 @@
+{
+  "id": "05-tools-wall",
+  "title": "Tools Wall",
+  "act": "I",
+  "flags": ["core"],
+  "layout": "tools-wall",
+  "content": {
+    "headline": "The AI Tools Wall — your cheat sheet",
+    "body": "A curated map for officers: which tool to use for which task, and which to avoid. Click any tool to see real admin use-cases.",
+    "bullets": [
+      "Writing → ChatGPT, Claude",
+      "Research → Perplexity, NotebookLM",
+      "Media → Midjourney, Runway, HeyGen, ElevenLabs",
+      "Presentations and notes → Gamma, Notion AI, Descript"
+    ]
+  }
+}

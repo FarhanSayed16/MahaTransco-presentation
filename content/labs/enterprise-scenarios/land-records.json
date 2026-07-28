@@ -1,0 +1,9 @@
+{
+  "id": "land-records",
+  "title": "Digital Land Records",
+  "role": "Executive Assistant to the District Magistrate",
+  "context": "A digital land records digitisation drive is rolling out across three blocks. Tehsildars report uneven mutation backlog, citizen queues at CSC centres, and confusion between certified copies and e-records. Senior leadership needs a clear guidance note for SDMs — not a legal treatise.",
+  "task": "Draft a formal guidance note for SDMs covering rollout phases, daily monitoring metrics, citizen communication rules, and escalation when mutation disputes arise.",
+  "constraints": "Maximum 350 words. Imperative tone. Formal Indian administrative English. No legal preamble. Do not invent scheme names, budgets, or section numbers. Mark unknowns as [VERIFY].",
+  "format": "Bulleted action points grouped by priority: (1) This week, (2) This month, (3) Escalation triggers. End with a one-line accountability reminder."
+}

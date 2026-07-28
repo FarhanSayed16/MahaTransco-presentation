@@ -1,0 +1,8 @@
+{
+  "id": "p07",
+  "title": "RTI-style FAQ",
+  "promptText": "Using only the public circular / policy text provided, generate an RTI-style FAQ for citizens and junior staff.\n\nCreate 8–10 Q&A pairs covering:\n- What the scheme / order is\n- Who is eligible or affected\n- How to apply / comply\n- Timelines mentioned in the source\n- Documents required (only if stated)\n- Grievance / appeal path (only if stated)\n- What is explicitly not covered\n\nRules:\n- Answers must be grounded in the pasted text. Quote or paraphrase closely.\n- If the source is silent, answer: \"Not specified in the provided circular.\" Do not invent.\n- Keep each answer under 60 words.\n- Add a final section: \"Points requiring official confirmation\" listing any ambiguities.\n- Formal, neutral tone suitable for a public FAQ page.\n\nPUBLIC CIRCULAR TEXT:\n[Paste text — public / gazetted content only]",
+  "toolId": "perplexity",
+  "category": "Research",
+  "type": "lab"
+}

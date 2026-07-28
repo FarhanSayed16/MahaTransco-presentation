@@ -1,0 +1,8 @@
+{
+  "id": "p26",
+  "title": "Officer reusable prompt template",
+  "promptText": "[ROLE]\nYou are [e.g. Executive Assistant to the Chief Engineer / PIO, MahaTransco].\n\n[CONTEXT]\n[Paste only non-confidential background. Redact names/IDs.]\n\n[TASK]\n[What you need drafted or analysed.]\n\n[AUDIENCE]\n[Citizens / field officers / senior management / press]\n\n[TONE]\n[Formal / calm / imperative / plain-language]\n\n[LENGTH]\n[e.g. max 150 words / one page]\n\n[FORMAT]\n[Bullets / numbered actions / letter / WhatsApp / table]\n\n[AVOID]\n- Invented numbers, legal sections, phone numbers, feeder names\n- Mark unknowns as [VERIFY]\n- Do not include confidential or citizen personal data",
+  "toolId": "chatgpt",
+  "category": "Writing",
+  "type": "lab"
+}

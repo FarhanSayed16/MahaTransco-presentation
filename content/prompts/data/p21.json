@@ -1,0 +1,8 @@
+{
+  "id": "p21",
+  "title": "Grievance theme clustering (hypothesis only)",
+  "promptText": "You are an analyst supporting a grievance cell.\n\nI will paste anonymised, non-confidential sample grievance texts (no names, phones, or IDs).\n\nTask:\n1. Cluster them into themes\n2. Rank themes by approximate volume\n3. Propose 3 root-cause hypotheses for the top theme\n4. Clearly label all hypotheses as UNVERIFIED — for review meeting only, not for enforcement action\n\nIf the paste looks like it contains personal data, refuse and ask me to redact first.",
+  "toolId": "claude",
+  "category": "Data",
+  "type": "lab"
+}

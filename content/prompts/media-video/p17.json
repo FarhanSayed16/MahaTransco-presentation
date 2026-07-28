@@ -1,0 +1,8 @@
+{
+  "id": "p17",
+  "title": "HeyGen avatar — maintenance advisory",
+  "promptText": "Write a ready-to-paste HeyGen avatar script for a 25–35 second MahaTransco public advisory video.\n\nSpoken script (use this wording unless a fact is missing):\n\"Namaskar. This is a short public advisory from MahaTransco. Planned maintenance may affect power supply in selected areas tonight between 10 PM and 2 AM. Please plan essential activities accordingly. For updates, check official MahaTransco channels only. Do not rely on forwarded WhatsApp messages. Thank you.\"\n\nAlso provide:\n1. On-screen captions broken into 4 short lines\n2. Avatar direction: formal Indian official attire, neutral studio background, steady eye contact, moderate pace\n3. Language note: primary English; offer a Marathi twin script with the same facts\n4. Mandatory end-card text: \"AI-generated presenter — verify on official MahaTransco channels\"\n5. Do-not-list: no fake logos, no invented phone numbers, no maps with wrong circles\n\nOutput as sections: Spoken EN | Spoken MR | Captions | Production notes.",
+  "toolId": "heygen",
+  "category": "Media",
+  "type": "lab"
+}

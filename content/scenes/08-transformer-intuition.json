@@ -1,0 +1,17 @@
+{
+  "id": "08-transformer-intuition",
+  "title": "How AI Thinks",
+  "act": "II",
+  "flags": ["core"],
+  "layout": "concept",
+  "content": {
+    "headline": "How does AI actually create a response?",
+    "body": "Sounding confident does not mean being correct. AI builds answers one word at a time by guessing the most likely next word.",
+    "bullets": [
+      "Step 1: Your prompt arrives",
+      "Step 2: Text is broken into small pieces called tokens",
+      "Step 3: The model predicts the next token based on probability",
+      "Step 4: Tokens stream together into the final answer"
+    ]
+  }
+}

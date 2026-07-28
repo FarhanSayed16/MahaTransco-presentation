@@ -1,0 +1,8 @@
+{
+  "id": "p14",
+  "title": "Data extraction",
+  "promptText": "Extract structured data from the unstructured administrative text below.\n\nReturn a Markdown table with columns:\n| Field | Value | Source span (short quote) | Confidence (High/Med/Low) |\n\nExtract only what is explicitly present:\n- Tender / work name\n- NIT or file reference (if any)\n- Dates (publish, bid submission, opening)\n- Estimated value / EMD (if stated)\n- Location / circle / division\n- Eligibility highlights\n- Contact office (if stated)\n\nRules:\n- Never invent missing numbers or dates.\n- If a field is absent, write \"Not stated\".\n- If two values conflict, list both and mark Low confidence.\n- After the table, list \"Ambiguities\" as bullets.\n- Do not provide legal interpretation — extraction only.\n\nUNSTRUCTURED TEXT:\n[Paste notice / email / scanned OCR text]",
+  "toolId": "claude",
+  "category": "Data",
+  "type": "lab"
+}

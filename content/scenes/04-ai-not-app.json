@@ -1,0 +1,17 @@
+{
+  "id": "04-ai-not-app",
+  "title": "AI is not one app",
+  "act": "I",
+  "flags": ["core"],
+  "layout": "concept",
+  "content": {
+    "headline": "AI is not one app — think Secretariat, not one desk",
+    "body": "You do not send every file to one desk. Text, image, video, documents, and research each have specialist tools. ChatGPT is one tool among many — often not the best for the job.",
+    "bullets": [
+      "Writing and tone drafts → ChatGPT, Claude, Gemini",
+      "Research with sources → Perplexity",
+      "Long documents with citations → NotebookLM",
+      "Images, video, and voice → Gemini / Midjourney, HeyGen, Runway, ElevenLabs"
+    ]
+  }
+}

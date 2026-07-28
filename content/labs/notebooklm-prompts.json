@@ -1,0 +1,22 @@
+[
+  {
+    "id": "summarize",
+    "label": "Summarize",
+    "prompt": "Summarize this document in five bullet points for a senior officer who has not read it."
+  },
+  {
+    "id": "deadlines",
+    "label": "Deadlines + pages",
+    "prompt": "List every deadline, date, or time-bound action mentioned in this document, with the page number for each."
+  },
+  {
+    "id": "faq",
+    "label": "Field FAQ",
+    "prompt": "Generate a list of 8 likely questions a field officer would ask about this document, with short answers."
+  },
+  {
+    "id": "briefing",
+    "label": "Briefing note",
+    "prompt": "Draft a one-page briefing note for a senior officer based on this document, in formal government style."
+  }
+]

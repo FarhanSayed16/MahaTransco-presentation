@@ -1,0 +1,16 @@
+{
+  "id": "14-live-writing-demo",
+  "title": "Live Writing Demo",
+  "act": "III",
+  "flags": ["core", "wow"],
+  "layout": "live-writing",
+  "content": {
+    "headline": "One notice → four audiences in minutes",
+    "body": "Copy a structured MahaTransco outage advisory, open ChatGPT or Claude, then iterate: Marathi, Hindi, WhatsApp, and a short social post. Judgment stays with you — retyping dies.",
+    "bullets": [
+      "Scenario: planned transmission-related outage advisory for citizens",
+      "Follow-ups: Marathi → Hindi → WhatsApp (<40 words) → X/Twitter (<280)",
+      "Ask the room: would you sign a cleaned version of the English draft?"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "03-pillars",
+  "title": "Three Pillars",
+  "act": "I",
+  "flags": ["core"],
+  "layout": "pipeline",
+  "content": {
+    "headline": "Today's three pillars",
+    "body": "Power without safety rails is a risk. Today we learn all three together.",
+    "bullets": [
+      "The Right Tool — pick the best AI tool for each job",
+      "Full Control — master prompts, tokens, and settings",
+      "Governance First — follow DPDP Act 2023 and IT Rules at every step"
+    ]
+  }
+}

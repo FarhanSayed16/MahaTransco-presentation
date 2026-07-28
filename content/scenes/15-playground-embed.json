@@ -1,0 +1,16 @@
+{
+  "id": "15-playground-embed",
+  "title": "Prompt Playground",
+  "act": "III",
+  "flags": ["core", "lab"],
+  "layout": "playground",
+  "content": {
+    "headline": "Prompt Playground — your take-home library",
+    "body": "Ready-made prompts for official writing, research, translation, meetings, citizen replies, media, and safety — copy any prompt and open it directly in your favourite AI tool.",
+    "bullets": [
+      "Browse prompts by category",
+      "One click: Copy → Open in ChatGPT, Claude, or Perplexity",
+      "Take the full pack home at /playground"
+    ]
+  }
+}

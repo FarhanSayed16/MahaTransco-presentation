@@ -1,0 +1,11 @@
+[
+  { "id": "c1", "label": "Press Release", "tier": 1 },
+  { "id": "c2", "label": "Published Tariff", "tier": 1 },
+  { "id": "c3", "label": "Gazetted Safety Circular", "tier": 1 },
+  { "id": "c4", "label": "Meeting Minutes", "tier": 2 },
+  { "id": "c5", "label": "Draft Scheme Note", "tier": 2 },
+  { "id": "c6", "label": "Unpublished Financials", "tier": 3 },
+  { "id": "c7", "label": "Tender Evaluation Sheet", "tier": 3 },
+  { "id": "c8", "label": "Employee Health Records", "tier": 4 },
+  { "id": "c9", "label": "Cabinet / Security Brief", "tier": 4 }
+]

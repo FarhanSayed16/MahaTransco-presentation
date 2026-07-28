@@ -1,0 +1,9 @@
+{
+  "id": "citizen-charter",
+  "title": "Citizen Charter Rewrite",
+  "role": "Nodal Officer for Citizen Services / Grievance Redressal",
+  "context": "The existing citizen charter is dense, jargon-heavy, and mixes TRANSco transmission responsibilities with DISCOM retail supply issues. Citizens and junior counter staff both misroute complaints. Leadership wants a plain-language rewrite for Class-10 readability while preserving mandatory service commitments already published.",
+  "task": "Rewrite the charter excerpt into a clear public-facing version: what we do, what we don't, how to apply/complain, indicative timelines from the source, and where to get updates.",
+  "constraints": "Do not invent SLAs, fees, or helpline numbers. If the source is silent, write \"Not specified in the provided charter.\" Keep under 450 words. Formal but plain. Flag ambiguities as [VERIFY].",
+  "format": "1) One-line purpose 2) Services we provide (bullets) 3) Services outside our remit 4) How to raise a request/complaint 5) What we will communicate back 6) Official channels only."
+}

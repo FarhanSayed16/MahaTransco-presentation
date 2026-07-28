@@ -1,0 +1,8 @@
+{
+  "id": "p22",
+  "title": "Myth vs fact citizen note",
+  "promptText": "You are the Public Information Officer for MahaTransco.\n\nDraft a short myth-vs-fact note (max 120 words) correcting a circulating rumour that 'all of Maharashtra will have a 12-hour blackout tomorrow'.\n\nRules:\n- Calm, factual tone\n- Do not invent outage schedules — use [VERIFY control room] where facts are missing\n- Direct citizens only to official MahaTransco channels\n- Do not attack any person or political party\n- Suitable for website and WhatsApp broadcast",
+  "toolId": "chatgpt",
+  "category": "Citizen",
+  "type": "lab"
+}

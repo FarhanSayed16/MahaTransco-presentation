@@ -1,0 +1,8 @@
+{
+  "id": "p09",
+  "title": "Research query",
+  "promptText": "Research and summarise the latest publicly available guidelines relevant to high-voltage transmission line safety clearances and right-of-way practices in India, with emphasis on administrative communication for state transmission utilities like MahaTransco.\n\nDeliver:\n1. Executive summary (120 words)\n2. Key obligations officers typically need to communicate to citizens / local bodies (bullets)\n3. Common misconceptions to avoid in public notices\n4. Source list with titles and links (or official document names)\n5. \"Uncertainty log\" — what you could not verify confidently\n\nRules:\n- Prefer official / primary sources (CEA, MoP, state notifications, gazetted orders).\n- Clearly separate \"established in cited source\" vs \"general practice\".\n- Do not invent section numbers. If unsure, say so.\n- Flag any content that should not be used as legal advice: this is a briefing aid only.\n- End with 5 follow-up questions an SDM / Circle office should ask field engineers before drafting a public notice.",
+  "toolId": "perplexity",
+  "category": "Research",
+  "type": "lab"
+}

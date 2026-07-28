@@ -1,0 +1,8 @@
+{
+  "id": "p04",
+  "title": "Simplify to Class-10 reading level",
+  "promptText": "Simplify the technical / policy text below so a Class-10 educated citizen or junior field staff member can understand it.\n\nGoals:\n- Keep all mandatory safety and compliance meaning intact.\n- Replace jargon with plain language; where a technical term must stay, add a short plain explanation in parentheses.\n- Short sentences. Active voice. No metaphors.\n- Prefer bullet lists for steps, warnings, and do/don't items.\n- Do not invent new rules, voltages, distances, or penalties.\n- If something is ambiguous in the source, write [VERIFY] instead of guessing.\n\nOutput format:\n1. One-sentence plain summary\n2. Key points (bullets)\n3. What citizens / staff must do\n4. What they must not do\n\nSOURCE TEXT:\n[Paste circular, SOP excerpt, or technical note]",
+  "toolId": "chatgpt",
+  "category": "Writing",
+  "type": "lab"
+}

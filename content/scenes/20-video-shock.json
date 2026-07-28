@@ -1,0 +1,11 @@
+{
+  "id": "20-video-shock",
+  "title": "Live AI Video Demo",
+  "act": "III",
+  "flags": ["core", "wow"],
+  "layout": "video-shock",
+  "content": {
+    "headline": "Watch AI create a talking video — live",
+    "body": "Namaskar. This is a short public advisory from MahaTransco. Planned maintenance may affect power supply in selected areas tonight between 10 PM and 2 AM. For updates, please check official MahaTransco channels only. Thank you."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "17-persona-lab",
+  "title": "DM Executive Desk Persona",
+  "act": "III",
+  "flags": ["core", "lab"],
+  "layout": "persona-lab",
+  "content": {
+    "headline": "Lab: create your own AI persona",
+    "body": "Lock in the right tone and safety rules once, so every draft starts disciplined — no need to repeat yourself each time.",
+    "bullets": [
+      "Open Google AI Studio → New Prompt → System Instructions",
+      "Paste rules: formal governance tone, mark unverified facts as [VERIFY], never invent numbers",
+      "Set temperature to 0.15 → save as \"DM Executive Desk\""
+    ]
+  }
+}

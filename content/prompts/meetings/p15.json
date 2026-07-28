@@ -1,0 +1,8 @@
+{
+  "id": "p15",
+  "title": "Meeting Agenda",
+  "promptText": "Create a crisp 60-minute board / senior management meeting agenda for MahaTransco / transmission utility leadership.\n\nUse these topics as inputs (expand into timed agenda items):\n[Paste topics — e.g., outage performance, CapEx review, safety incidents, citizen grievances, IT security]\n\nAgenda format:\n1. Meeting objective (1 line)\n2. Timed agenda table: Time | Item | Owner | Decision needed? (Y/N) | Pre-read\n3. Parking lot for non-priority items\n4. Decision log template (blank rows)\n5. Closing: confirm owners and deadlines (last 5 minutes)\n\nRules:\n- Assume chair is a senior officer; keep titles generic if not provided.\n- Suggest realistic time boxes that sum to 60 minutes.\n- Flag any topic that needs confidential papers as \"Closed session — Tier 3 materials\".\n- Do not invent performance KPIs; use placeholders like [VERIFY KPI].\n- Tone: formal, action-oriented, no motivational fluff.",
+  "toolId": "chatgpt",
+  "category": "Meetings",
+  "type": "lab"
+}

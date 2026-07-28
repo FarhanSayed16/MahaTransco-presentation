@@ -1,0 +1,16 @@
+{
+  "id": "21-rag-explainer",
+  "title": "RAG Explainer",
+  "act": "IV",
+  "flags": ["core"],
+  "layout": "rag-explainer",
+  "content": {
+    "headline": "Document intelligence — read 90 pages in 60 seconds",
+    "body": "NotebookLM (and similar RAG tools) search your uploaded files first, then answer with page-level citations. That citation is the feature that answers \"can I trust this?\"",
+    "bullets": [
+      "Upload a public policy PDF only — never confidential files",
+      "Run four prompts: summarize → deadlines with pages → FAQ → briefing note",
+      "Citations speed verification — they do not replace officer judgment"
+    ]
+  }
+}

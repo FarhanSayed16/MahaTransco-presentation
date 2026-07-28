@@ -1,0 +1,8 @@
+{
+  "id": "p16",
+  "title": "Citizen Complaint Response",
+  "promptText": "Draft an empathetic, formal response to a citizen complaint related to power transmission / right-of-way / service disruption under MahaTransco's remit (or redirect correctly if it belongs to a distribution company).\n\nComplaint text:\n[Paste citizen message]\n\nResponse requirements:\n1. Acknowledge the inconvenience without admitting liability beyond facts given.\n2. Clarify jurisdiction if the issue is likely DISCOM vs TRANSCO.\n3. State what has been / will be checked (use process language; no fake ticket IDs).\n4. Give realistic next-step expectations using placeholders for timelines.\n5. Provide official channel guidance only — no personal mobile numbers.\n6. Keep under 160 words; bilingual option: English body + Marathi summary paragraph.\n\nRules:\n- Do not invent feeder names, compensation amounts, or fault causes.\n- Mark unknowns as [VERIFY].\n- Tone: respectful, calm, administratively precise.",
+  "toolId": "claude",
+  "category": "Citizen",
+  "type": "lab"
+}

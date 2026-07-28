@@ -1,0 +1,8 @@
+{
+  "id": "p24",
+  "title": "NotebookLM — field officer FAQ",
+  "promptText": "Generate a list of 8 likely questions a field officer would ask about this document, with short answers.",
+  "toolId": "notebooklm",
+  "category": "Research",
+  "type": "demo"
+}

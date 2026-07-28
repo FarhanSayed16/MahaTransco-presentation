@@ -1,0 +1,8 @@
+{
+  "id": "p10",
+  "title": "Image prompt - Substation",
+  "promptText": "Create a photorealistic wide-angle photograph of a modern high-voltage electrical substation in Maharashtra at golden hour.\n\nInclude: steel gantries, transformers, insulator strings, gravel yard, chain-link perimeter, distant hills, overcast-to-sunset sky.\n\nStyle: documentary photojournalism, natural colour, shallow atmospheric haze, no cinematic neon glow.\n\nStrict exclusions:\n- No readable logos, board names, or number plates\n- No recognisable faces of real officials\n- No text overlays, watermarks, or UI chrome\n- No unsafe worker poses near live equipment\n- No fictional city names\n\nComposition: horizontal 16:9, suitable for a training slide or public awareness banner about grid infrastructure (not a crisis scene).",
+  "toolId": "midjourney",
+  "category": "Media",
+  "type": "lab"
+}

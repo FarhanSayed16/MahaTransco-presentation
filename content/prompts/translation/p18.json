@@ -1,0 +1,8 @@
+{
+  "id": "p18",
+  "title": "EN–Marathi notice pair",
+  "promptText": "Produce a matched English + Marathi pair of a short official public notice for MahaTransco / district administration.\n\nInput brief (facts only):\n[Paste bullets: what / where / when / why / action for citizens / official update channel]\n\nDeliver:\n1. English notice (90–140 words) — formal public notice style\n2. Marathi notice (same meaning, natural official Marathi, not literal translation)\n3. Side-by-side checklist confirming both versions share identical facts\n4. Term consistency table: EN term | MR term (8–10 rows)\n\nRules:\n- Do not add new facts.\n- Keep names of places and times identical across languages.\n- If a fact is missing, insert [VERIFY] in both versions.\n- Avoid Sanskritised over-formal Marathi that citizens cannot parse; prefer clear administrative Marathi.\n- End both versions with: updates only via official channels.",
+  "toolId": "chatgpt",
+  "category": "Translation",
+  "type": "lab"
+}

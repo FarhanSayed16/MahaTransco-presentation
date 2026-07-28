@@ -1,0 +1,19 @@
+{
+  "id": "25-deepfake-drill",
+  "title": "Deepfake Drill",
+  "act": "IV",
+  "flags": ["core", "lab"],
+  "layout": "deepfake-drill",
+  "content": {
+    "headline": "Deepfake drill — you are both target and verifier",
+    "body": "Senior officers are likely targets of fake voice notes and videos — and the people citizens call when something suspicious circulates. Run this checklist before you forward or act.",
+    "bullets": [
+      "PAUSE — urgency (\"forward immediately\") is a manipulation pattern",
+      "SOURCE — verified official channel, or just an unknown forward?",
+      "INSPECT — lip sync, glitches, unnatural audio",
+      "SEARCH — reverse lookup + official posts",
+      "VERIFY — confirm via a second official path (control room / PIO)",
+      "ESCALATE — report through IT / cyber cell; do not publicly amplify first"
+    ]
+  }
+}

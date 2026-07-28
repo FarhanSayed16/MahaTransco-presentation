@@ -1,0 +1,8 @@
+{
+  "id": "p05",
+  "title": "Bilingual EN+Marathi outline",
+  "promptText": "Create a bilingual outline (English + Marathi) for the public communication below.\n\nContext: MahaTransco / district administration citizen advisory or project update.\n\nOutput structure:\nA. English outline\n   - Title\n   - 5–7 section headings\n   - Under each heading: 2–3 bullet points (not full paragraphs)\nB. Marathi outline\n   - Same structure, natural official Marathi (not word-for-word calque)\nC. Glossary\n   - 8–12 key terms in EN | MR for consistent reuse across drafts\n\nRules:\n- Keep tone formal and neutral.\n- Do not invent dates, feeder names, compensation amounts, or contact numbers.\n- Use [VERIFY] for any missing fact.\n- Headings should be usable as-is for a notice, press note, or website page.\n\nSOURCE BRIEF:\n[Paste English or Marathi draft / bullet points]",
+  "toolId": "chatgpt",
+  "category": "Translation",
+  "type": "lab"
+}
