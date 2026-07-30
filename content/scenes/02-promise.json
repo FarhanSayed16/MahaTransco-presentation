@@ -2,16 +2,18 @@
   "id": "02-promise",
   "title": "The Promise",
   "act": "I",
-  "flags": ["core"],
+  "flags": [
+    "core"
+  ],
   "layout": "concept",
   "content": {
-    "headline": "What you will walk away with today",
-    "body": "Three practical skills for your desk tomorrow — no coding. First, a quick show of hands: personal AI use is common; official use is not. That gap is why this session exists.",
+    "headline": "What Will You Learn Today?",
+    "body": "You will learn three simple skills you can use at your desk tomorrow. No coding needed. Let us start with a quick show of hands.",
     "bullets": [
-      "Show of hands: used ChatGPT or similar at least once?",
-      "Show of hands: generated an image with AI?",
-      "Show of hands: used AI for official work — a draft, translation, or summary?",
-      "Then: draft notices in minutes · summarise long files with citations · create outreach media safely"
+      "Show of hands: who has used ChatGPT or a similar tool at least once?",
+      "Show of hands: who has made an image using AI?",
+      "Show of hands: who has used AI for real office work — a draft, a translation, or a summary?",
+      "By the end of today, you will be able to: write a notice in minutes, summarise a long file with page numbers you can check, and make outreach images safely."
     ]
   }
 }

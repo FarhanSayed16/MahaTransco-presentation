@@ -2,16 +2,18 @@
   "id": "08-transformer-intuition",
   "title": "How AI Thinks",
   "act": "II",
-  "flags": ["core"],
+  "flags": [
+    "core"
+  ],
   "layout": "concept",
   "content": {
-    "headline": "How does AI actually create a response?",
-    "body": "Sounding confident does not mean being correct. AI builds answers one word at a time by guessing the most likely next word.",
+    "headline": "How Does AI Answer You?",
+    "body": "Sounding confident is not the same as being correct. AI does not look up facts. It builds an answer one small piece at a time, by guessing what comes next. That is why it can sound right and still be wrong.",
     "bullets": [
-      "Step 1: Your prompt arrives",
-      "Step 2: Text is broken into small pieces called tokens",
-      "Step 3: The model predicts the next token based on probability",
-      "Step 4: Tokens stream together into the final answer"
+      "Your question comes in",
+      "It is broken into small pieces — more on this in the next lab",
+      "The model guesses the next likely piece, again and again",
+      "All these pieces together become the final answer"
     ]
   }
 }

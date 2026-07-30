@@ -1,12 +1,19 @@
 {
   "id": "01-opening",
-  "title": "AI as a Digital Assistant for Administrative Leadership",
+  "title": "AI as a Digital Assistant",
   "act": "I",
-  "flags": ["core"],
+  "flags": [
+    "core"
+  ],
   "layout": "title",
   "content": {
     "headline": "AI as a Digital Assistant for Administrative Leadership",
-    "body": "A working session for MahaTransco / Government of Maharashtra officers — not a sales pitch. You will see real tools, real prompts, and clear rules for what never to upload.",
+    "body": "A practical, non-commercial session for MahaTransco officers. We will cover three critical areas:",
+    "bullets": [
+      "Real, official AI tools you can use at your desk tomorrow",
+      "Ready-to-use prompts for drafting notices and summaries",
+      "Clear security rules on what must never be uploaded"
+    ],
     "speaker": "Akshay Ridlan"
   }
 }

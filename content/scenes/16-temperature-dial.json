@@ -2,15 +2,17 @@
   "id": "16-temperature-dial",
   "title": "Temperature Dial",
   "act": "III",
-  "flags": ["core"],
+  "flags": [
+    "core"
+  ],
   "layout": "temperature-dial",
   "content": {
-    "headline": "Temperature — control how creative the AI gets",
-    "body": "Low temperature for official circulars and factual work. Higher temperature for creative campaigns. Never use high temperature for figures, legal sections, or citizen names.",
+    "headline": "Temperature — How Creative Should AI Be?",
+    "body": "Use low temperature for official letters and factual work. Use higher temperature for creative campaigns. Do not use high temperature for figures, legal sections, or citizen names.",
     "bullets": [
-      "0.1 → factual and repetitive — safest for government circulars",
-      "0.7 → creative campaign copy and brainstorming",
-      "1.0+ → unpredictable and risky — avoid for official work"
+      "0.1 → factual and repeatable — safest for government letters",
+      "0.7 → creative campaign writing and brainstorming",
+      "1.0 and above → unpredictable and risky — avoid for official work"
     ]
   }
 }

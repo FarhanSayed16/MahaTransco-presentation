@@ -2,15 +2,18 @@
   "id": "10-context-window",
   "title": "Context Window Meter",
   "act": "II",
-  "flags": ["core", "optional"],
+  "flags": [
+    "core",
+    "optional"
+  ],
   "layout": "concept",
   "content": {
-    "headline": "Context Window: how much can AI read at once?",
-    "body": "A bigger memory helps, but for 200-page policy documents, retrieval (RAG) still works better than pasting everything in.",
+    "headline": "How Much Can AI Read at Once?",
+    "body": "A bigger memory helps, but for a 200-page policy file, a tool like NotebookLM still works better than pasting the whole file in.",
     "bullets": [
-      "8K tokens → a short memo or one-page letter",
-      "128K tokens → a thick file, but AI may miss details in the middle",
-      "1–2M tokens → book-length, but still verify — never trust a blind paste"
+      "8,000 tokens is about 10 to 12 pages — enough for a memo or a short letter",
+      "128,000 tokens is about 190 to 200 pages — a thick case file, but AI can miss details in the middle",
+      "1 to 2 million tokens is about 1,500 pages or more — very long, but still check the answer. Never trust a blind paste."
     ]
   }
 }

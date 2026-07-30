@@ -2,17 +2,19 @@
   "id": "11-prompt-methods",
   "title": "Prompt Methods",
   "act": "II",
-  "flags": ["core"],
+  "flags": [
+    "core"
+  ],
   "layout": "prompt-methods",
   "content": {
-    "headline": "Five ways to write a better prompt",
-    "body": "You do not need to shout at the AI. Quality improves when you give it a role, examples, and clear limits.",
+    "headline": "Five Ways to Write a Better Prompt",
+    "body": "You do not need to write a long message. The result gets better the moment you give AI a role, an example, and a clear limit.",
     "bullets": [
-      "Zero-shot — just ask (quick but often generic)",
-      "Role prompting — \"Act as a senior district officer drafting a public notice\"",
-      "Few-shot — paste 1–3 examples of the format you want",
-      "Constraints — set word count, tone, and what to exclude",
-      "Chain-of-Thought — ask it to think step-by-step before answering"
+      "Zero-shot — just ask directly. Fast, but often generic.",
+      "Role prompting — \"Act as a senior district officer writing a public notice\"",
+      "Few-shot — paste 1 to 3 examples of the exact format you want",
+      "Constraints — set the word limit, the tone, and what to leave out",
+      "Chain-of-Thought — ask it to explain its steps before the final answer. Good for anything with numbers or many parts."
     ]
   }
 }

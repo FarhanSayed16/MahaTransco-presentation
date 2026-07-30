@@ -2,15 +2,17 @@
   "id": "03-pillars",
   "title": "Three Pillars",
   "act": "I",
-  "flags": ["core"],
+  "flags": [
+    "core"
+  ],
   "layout": "pipeline",
   "content": {
-    "headline": "Today's three pillars",
-    "body": "Power without safety rails is a risk. Today we learn all three together.",
+    "headline": "Three Things to Remember Today",
+    "body": "Using AI safely in government requires three core pillars. Miss any one, and AI becomes a liability instead of an asset.",
     "bullets": [
-      "The Right Tool — pick the best AI tool for each job",
-      "Full Control — master prompts, tokens, and settings",
-      "Governance First — follow DPDP Act 2023 and IT Rules at every step"
+      "The Right Tool — use the best AI tool for the job, not just the one you know",
+      "Full Control — learn prompts, tokens, and settings so the output stays predictable",
+      "Governance First — follow the DPDP Act 2023 and IT Rules at every step"
     ]
   }
 }

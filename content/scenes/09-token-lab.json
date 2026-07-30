@@ -2,15 +2,18 @@
   "id": "09-token-lab",
   "title": "Token Lab",
   "act": "II",
-  "flags": ["core", "lab"],
+  "flags": [
+    "core",
+    "lab"
+  ],
   "layout": "token-lab",
   "content": {
-    "headline": "Tokenisation Lab — see how AI reads your text",
-    "body": "AI reads tokens, not full words. Hindi and Marathi text often costs 2–3x more tokens than English for the same sentence.",
+    "headline": "Token Lab — See How AI Reads Your Text",
+    "body": "AI does not read full words. It reads small pieces called tokens. Hindi and Marathi text usually takes 2 to 3 times more tokens than the same line in English.",
     "bullets": [
-      "Try it: type an English circular, then a Hindi D.O., then a Marathi notice",
-      "Context window = the AI's working memory (bigger is not always better)",
-      "For huge PDFs: do not paste the whole file — use RAG or NotebookLM instead"
+      "Try it: type an English circular, then the same line in Hindi, then in Marathi",
+      "Context window is the AI's working memory for this chat. Bigger is not always better.",
+      "For a big PDF, do not paste the whole file. Use RAG or NotebookLM instead."
     ]
   }
 }

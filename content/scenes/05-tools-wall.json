@@ -2,11 +2,13 @@
   "id": "05-tools-wall",
   "title": "Tools Wall",
   "act": "I",
-  "flags": ["core"],
+  "flags": [
+    "core"
+  ],
   "layout": "tools-wall",
   "content": {
-    "headline": "The AI Tools Wall — your cheat sheet",
-    "body": "A curated map for officers: which tool to use for which task, and which to avoid. Click any tool to see real admin use-cases.",
+    "headline": "AI Tools — A Quick Guide",
+    "body": "A simple guide: which tool to use for which task, and which to avoid. Click on any tool to see how officers are using it.",
     "bullets": [
       "Writing → ChatGPT, Claude",
       "Research → Perplexity, NotebookLM",

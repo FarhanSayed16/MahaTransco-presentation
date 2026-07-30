@@ -2,10 +2,10 @@
   "title": "MahaTransco Officer Toolkit",
   "items": [
     { "name": "Prompt Playground", "url": "/playground", "type": "internal" },
-    { "name": "One-page Cheat Sheet", "url": "/resources/cheat-sheet.md", "type": "download" },
-    { "name": "Never-Upload Checklist", "url": "/resources/never-upload.md", "type": "download" },
-    { "name": "Officer OS Playbook", "url": "/resources/officer-os.md", "type": "download" },
-    { "name": "DM Persona Rules", "url": "/resources/persona.txt", "type": "download" },
-    { "name": "Verification Checklist", "url": "/resources/verification.md", "type": "download" }
+    { "name": "One-page Cheat Sheet", "url": "/viewer?file=/resources/cheat-sheet.md", "type": "download" },
+    { "name": "Never-Upload Checklist", "url": "/viewer?file=/resources/never-upload.md", "type": "download" },
+    { "name": "Officer OS Playbook", "url": "/viewer?file=/resources/officer-os.md", "type": "download" },
+    { "name": "DM Persona Rules", "url": "/viewer?file=/resources/persona.txt", "type": "download" },
+    { "name": "Verification Checklist", "url": "/viewer?file=/resources/verification.md", "type": "download" }
   ]
 }

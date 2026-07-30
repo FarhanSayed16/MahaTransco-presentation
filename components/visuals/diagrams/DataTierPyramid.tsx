@@ -33,7 +33,9 @@ export function DataTierPyramid() {
             <span className="font-bold text-navy text-sm">
               T{t.tier} {t.name}
             </span>
-            <span className="hidden sm:inline text-xs text-ink-muted">· {t.env}</span>
+            <span className="hidden sm:inline ml-1 text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded bg-white/90 border border-black/10 shadow-sm text-navy">
+              {t.env}
+            </span>
           </motion.div>
         ))}
       </div>

@@ -2,15 +2,17 @@
   "id": "06-generative-ai",
   "title": "What is Generative AI",
   "act": "II",
-  "flags": ["core"],
+  "flags": [
+    "core"
+  ],
   "layout": "concept",
   "content": {
-    "headline": "What is Generative AI?",
-    "body": "AI that writes, draws, or speaks — guided by what you ask it. Think of it as a very fast assistant who needs clear instructions every time.",
+    "headline": "What Is Generative AI?",
+    "body": "AI that can write, draw, or speak — based on what you ask it to do. Think of it as a fast assistant. It needs clear instructions every time, or the result will be generic.",
     "bullets": [
-      "You give it a prompt → the model creates a response",
-      "It predicts likely answers — it does not \"know\" facts like a database",
-      "Better instructions = better output, every single time"
+      "You give it a prompt. It creates a response.",
+      "It guesses the most likely answer. It does not \"know\" facts the way a database does.",
+      "Better instructions give better results, every time."
     ]
   }
 }

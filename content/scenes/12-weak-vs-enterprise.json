@@ -2,15 +2,17 @@
   "id": "12-weak-vs-enterprise",
   "title": "Weak vs Enterprise Prompt",
   "act": "II",
-  "flags": ["core"],
+  "flags": [
+    "core"
+  ],
   "layout": "compare",
   "content": {
-    "headline": "Weak prompt vs Enterprise prompt",
-    "body": "A vague ask gives you a vague answer. A structured prompt gives you a draft you can actually use.",
+    "headline": "Weak Prompt vs Enterprise Prompt",
+    "body": "A vague question gets a vague answer. A clear, structured prompt gets you a draft you can actually use.",
     "bullets": [
-      "Weak: \"Write a letter about land records\" → generic essay nobody would sign",
-      "Enterprise: Role + Context + Task + Constraints + Format → ready-to-review draft",
-      "The difference is not magic — it is structure and practice"
+      "Weak: \"Write a letter about land records\" → a generic essay nobody would sign",
+      "Enterprise: Role + Context + Task + Constraints + Format → a draft ready to review",
+      "The difference is not luck. It is structure, and you can learn it in five minutes."
     ]
   }
 }

@@ -1,26 +1,26 @@
 [
   {
     "step": "PAUSE",
-    "desc": "Stop the forward impulse. Urgency (\"share in 10 minutes or else\") is a classic trap. Do not act on operational orders that arrive only as a viral video or voice note."
+    "desc": "* Break the urgency loop.\n* Never forward \"breaking\" media on impulse.\n* Urgency is a classic trap."
   },
   {
     "step": "SOURCE",
-    "desc": "Who sent this, and through which channel? Prefer verified official MahaTransco / district handles, signed circulars, or known control-room numbers. Anonymous forwards and unknown groups fail this step."
+    "desc": "* Trace the origin of the file.\n* Is it a verified official handle?\n* Anonymous WhatsApp forwards fail this step immediately."
   },
   {
     "step": "INSPECT",
-    "desc": "Look and listen: lip-sync mismatches, flat or robotic audio, unnatural blinks, warped edges, inconsistent lighting, or captions that don't match speech. One artifact is a warning; several are a stop sign. Also look for mandated SGI labels on platform content."
+    "desc": "* Look for visual glitches or unnatural blinking.\n* Listen for flat, robotic, or out-of-sync audio.\n* Check for mandated \"Synthetically Generated\" labels."
   },
   {
     "step": "SEARCH",
-    "desc": "Check official website/app posts, reverse-image or reverse-video search where available, and whether a matching advisory already exists with different wording. Note timestamps and earlier originals."
+    "desc": "* Run a reverse image or video search.\n* Check official websites and press releases.\n* See if older versions of the video exist."
   },
   {
     "step": "VERIFY",
-    "desc": "Confirm via a second official path: call the known control room / PIO / IT cell, or wait for a signed message on the designated channel. Never verify by replying to the same forwarded thread."
+    "desc": "* Call the source directly through trusted channels.\n* Contact the control room or PIO to confirm.\n* Never verify by replying to the forwarded thread."
   },
   {
     "step": "ESCALATE",
-    "desc": "Report suspected deepfakes to the IT / cyber cell through proper channels. Do not publicly react first — especially when a named official or law-and-order claim is involved."
+    "desc": "* Do not debunk the fake publicly first.\n* Send suspicious media directly to the Cyber Cell or IT.\n* Let official channels handle the response."
   }
 ]

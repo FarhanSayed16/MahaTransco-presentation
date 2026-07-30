@@ -2,15 +2,18 @@
   "id": "14-live-writing-demo",
   "title": "Live Writing Demo",
   "act": "III",
-  "flags": ["core", "wow"],
+  "flags": [
+    "core",
+    "wow"
+  ],
   "layout": "live-writing",
   "content": {
-    "headline": "One notice → four audiences in minutes",
-    "body": "Copy a structured MahaTransco outage advisory, open ChatGPT or Claude, then iterate: Marathi, Hindi, WhatsApp, and a short social post. Judgment stays with you — retyping dies.",
+    "headline": "One Notice, Four Versions, in Minutes",
+    "body": "Copy a MahaTransco outage notice. Open ChatGPT or Claude. Then make more versions: Marathi, Hindi, WhatsApp, and a short social media post. You stay in control — you do not need to retype everything.",
     "bullets": [
-      "Scenario: planned transmission-related outage advisory for citizens",
-      "Follow-ups: Marathi → Hindi → WhatsApp (<40 words) → X/Twitter (<280)",
-      "Ask the room: would you sign a cleaned version of the English draft?"
+      "Example: a notice about a planned power cut for a transmission line",
+      "Next versions: Marathi → Hindi → WhatsApp (under 40 words) → X/Twitter (under 280 characters)",
+      "Ask the room: would you sign a cleaned-up version of the English draft?"
     ]
   }
 }
