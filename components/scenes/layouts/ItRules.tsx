@@ -1,9 +1,11 @@
 "use client"
 
+import * as React from "react"
 import { z } from "zod"
 import { SceneSchema } from "@/lib/content/schemas"
 import { Scale, AlertTriangle, Clock, Tag, Shield } from "lucide-react"
 import { SceneIconBadge } from "@/components/visuals/SceneIcon"
+import ReactMarkdown from "react-markdown"
 
 const HIGHLIGHTS = [
   { icon: Tag, title: "Persistent labelling", text: "SGI must stay labelled for its entire duration" },
@@ -41,7 +43,9 @@ export function ItRules({ scene }: { scene: z.infer<typeof SceneSchema> }) {
             {scene.content.bullets.map((b) => (
               <li key={b} className="icon-bullet">
                 <AlertTriangle size={18} className="text-warn shrink-0" />
-                <span>{b}</span>
+                <span className="flex-1">
+                  <ReactMarkdown components={{ p: ({ children }) => <>{children}</> }}>{b}</ReactMarkdown>
+                </span>
               </li>
             ))}
           </ul>

@@ -7,6 +7,7 @@ import drillsData from "@/content/labs/deepfake-drills.json"
 import { Pause, Radio, ScanEye, Search, ShieldCheck, Megaphone } from "lucide-react"
 import { SceneIconBadge } from "@/components/visuals/SceneIcon"
 import type { LucideIcon } from "lucide-react"
+import ReactMarkdown from "react-markdown"
 
 type Drill = { step: string; desc: string }
 
@@ -83,8 +84,17 @@ export function DeepfakeDrill({ scene }: { scene: z.infer<typeof SceneSchema> })
           <ActiveIcon size={36} className="text-accent" />
         </div>
         <h3 className="text-2xl font-bold text-navy mb-2">{active.step}</h3>
-        <p className="text-lg text-ink text-left">{active.desc}</p>
-        <p className="text-sm text-ink-muted mt-4">
+        <div className="text-lg text-ink text-left space-y-2 pl-4">
+          <ReactMarkdown
+            components={{
+              ul: ({ children }) => <ul className="list-disc space-y-1">{children}</ul>,
+              li: ({ children }) => <li>{children}</li>
+            }}
+          >
+            {active.desc}
+          </ReactMarkdown>
+        </div>
+        <p className="text-sm text-ink-muted mt-6">
           Step {activeStep + 1} of {drills.length}. Same tools you saw in demos can be misused — verification is the defense.
         </p>
       </div>

@@ -1,12 +1,16 @@
 "use client"
 
 import * as React from "react"
+import Link from "next/link"
+import { ArrowLeft } from "lucide-react"
 import { PlaygroundCard } from "./PlaygroundCard"
 import { z } from "zod"
 import { PromptSchema, ToolSchema } from "@/lib/content/schemas"
 
 type Prompt = z.infer<typeof PromptSchema>
 type Tool = z.infer<typeof ToolSchema>
+
+import { useRouter } from "next/navigation"
 
 export function PlaygroundClient({
   prompts,
@@ -15,6 +19,7 @@ export function PlaygroundClient({
   prompts: Prompt[]
   tools: Tool[]
 }) {
+  const router = useRouter()
   const categories = React.useMemo(() => {
     const set = new Set(prompts.map((p) => p.category))
     return ["All", ...Array.from(set)]
@@ -44,6 +49,13 @@ export function PlaygroundClient({
   return (
     <div className="min-h-screen bg-bg p-8 md:p-12">
       <div className="max-w-7xl mx-auto flex flex-col">
+        <button
+          onClick={() => router.back()}
+          className="inline-flex items-center gap-2 text-sm font-semibold text-ink-muted hover:text-ink transition-colors mb-6 w-fit"
+        >
+          <ArrowLeft className="w-4 h-4" />
+          Back to Presentation
+        </button>
         <div className="flex flex-wrap justify-between items-center gap-4 mb-8">
           <h1 className="text-4xl md:text-5xl font-display font-bold text-navy">Prompt Playground</h1>
           <button

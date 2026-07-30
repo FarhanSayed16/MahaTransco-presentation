@@ -1,9 +1,9 @@
 import Image from "next/image"
 
-export function LogoLockup({ compact = false }: { compact?: boolean }) {
+export function LogoLockup({ compact = false, align = "center" }: { compact?: boolean, align?: "left" | "center" }) {
   if (compact) {
     return (
-      <div className="flex items-center gap-2">
+      <div className={`flex items-center gap-2 ${align === "center" ? "justify-center" : "justify-start"}`}>
         <div className="relative w-9 h-9 rounded-lg overflow-hidden border border-line bg-navy shadow-sm">
           <Image src="/brand/mahatransco.svg" alt="" width={36} height={36} className="object-cover" />
         </div>
@@ -13,7 +13,7 @@ export function LogoLockup({ compact = false }: { compact?: boolean }) {
   }
 
   return (
-    <div className="mb-6 flex flex-col items-center gap-3 md:mb-8">
+    <div className={`mb-6 flex flex-col gap-3 md:mb-8 ${align === "center" ? "items-center" : "items-start"}`}>
       <div className="flex items-center gap-3">
         <div className="relative h-14 w-14 overflow-hidden rounded-xl border border-white/80 bg-navy shadow-md ring-4 ring-accent/10 md:h-16 md:w-16">
           <Image

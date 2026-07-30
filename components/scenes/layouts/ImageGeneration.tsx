@@ -13,6 +13,18 @@ const IMAGE_PROMPT =
   "Create a highly realistic, documentary-style photograph of a flood relief staging area in rural Maharashtra. Government and NDRF personnel coordinating logistics near inflatable boats and supply crates, overcast monsoon light, muted colours, photojournalistic style, no readable faces of real officials looking at camera, no logos, no watermarks, no readable vehicle plates."
 
 export function ImageGeneration({ scene }: { scene: z.infer<typeof SceneSchema> }) {
+  const [copied, setCopied] = React.useState(false)
+
+  const handleCopy = async () => {
+    try {
+      await navigator.clipboard.writeText(IMAGE_PROMPT)
+      setCopied(true)
+      setTimeout(() => setCopied(false), 2000)
+    } catch (err) {
+      console.warn("Failed to copy:", err)
+    }
+  }
+
   return (
     <div className="flex flex-col h-full w-full max-w-7xl pt-8">
       <div className="flex items-center gap-3 mb-2">
@@ -24,8 +36,12 @@ export function ImageGeneration({ scene }: { scene: z.infer<typeof SceneSchema> 
         <div className="bg-surface border border-line rounded-2xl p-6 flex flex-col shadow-sm accent-border-left">
           <h3 className="text-xl font-bold text-navy mb-3">Image prompt</h3>
           <p className="font-mono text-sm bg-surface-muted p-4 rounded-xl flex-1 text-ink">{IMAGE_PROMPT}</p>
-          <div className="flex flex-wrap gap-2 mt-4">
-            <Button onClick={() => openInTool(IMAGE_PROMPT, "gemini", toolsData as any)}>
+          <div className="flex flex-wrap items-center gap-2 mt-4">
+            <Button onClick={handleCopy} className={`gap-2 ${copied ? "bg-green-600 hover:bg-green-700" : ""}`}>
+              {copied ? "Copied!" : "Copy Prompt"}
+            </Button>
+            <div className="w-px h-6 bg-line mx-2" />
+            <Button variant="secondary" onClick={() => openInTool(IMAGE_PROMPT, "gemini", toolsData as any)}>
               Open Gemini
             </Button>
             <Button variant="secondary" onClick={() => openInTool(IMAGE_PROMPT, "midjourney", toolsData as any)}>

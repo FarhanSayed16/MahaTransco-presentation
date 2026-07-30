@@ -3,6 +3,7 @@
 import * as React from "react"
 import { usePresentation } from "@/lib/navigation/PresentationContext"
 import { IconButton } from "@/components/ui/IconButton"
+import { Button } from "@/components/ui/Button"
 import { ChevronLeft, ChevronRight, Grid } from "lucide-react"
 import { SceneIconBadge } from "@/components/visuals/SceneIcon"
 
@@ -34,20 +35,28 @@ export function NavChrome() {
         </div>
       </div>
 
-      <div className="flex items-center gap-2 shrink-0">
-        <span className="text-sm text-ink-muted mr-4">
-          {currentIndex + 1} / {activeScenes.length}
+      <div className="flex items-center gap-3 shrink-0">
+        <span className="text-sm font-bold text-ink mr-2">
+          {currentIndex + 1} <span className="text-ink-muted font-medium">/ {activeScenes.length}</span>
         </span>
-        <IconButton onClick={prevScene} disabled={currentIndex === 0} title="Previous (←)">
-          <ChevronLeft className="w-5 h-5" />
-        </IconButton>
-        <IconButton
+        <Button
+          variant="secondary"
+          onClick={prevScene}
+          disabled={currentIndex === 0}
+          title="Previous (←)"
+        >
+          <ChevronLeft className="w-4 h-4" />
+          Prev
+        </Button>
+        <Button
+          variant="primary"
           onClick={nextScene}
           disabled={currentIndex >= totalScenes}
           title="Next (→ or Space)"
         >
-          <ChevronRight className="w-5 h-5" />
-        </IconButton>
+          Next
+          <ChevronRight className="w-4 h-4" />
+        </Button>
       </div>
     </div>
   )

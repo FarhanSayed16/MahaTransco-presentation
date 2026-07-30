@@ -86,7 +86,15 @@ export function ConceptSplit({ scene }: { scene: z.infer<typeof SceneSchema> }) 
             <div className="flex flex-wrap gap-2 mb-4">
               <button
                 type="button"
-                className="px-4 py-2 rounded-xl bg-navy text-white text-sm font-bold"
+                className="px-4 py-2 rounded-xl bg-surface border border-line text-ink-muted hover:text-ink text-sm font-bold disabled:opacity-50"
+                onClick={() => setPollStep((s) => Math.max(s - 1, 0))}
+                disabled={pollStep === 0}
+              >
+                Previous
+              </button>
+              <button
+                type="button"
+                className="px-4 py-2 rounded-xl bg-navy text-white text-sm font-bold disabled:opacity-50"
                 onClick={() => setPollStep((s) => Math.min(s + 1, POLL_QUESTIONS.length - 1))}
                 disabled={pollStep >= POLL_QUESTIONS.length - 1}
               >
@@ -94,15 +102,17 @@ export function ConceptSplit({ scene }: { scene: z.infer<typeof SceneSchema> }) 
               </button>
             </div>
             {pollStep === POLL_QUESTIONS.length - 1 && (
-              <p className="text-ink font-semibold">
-                That gap — personal use high, official use low — is exactly what this workshop closes.
-              </p>
+              <div className="mt-6 border-t border-line pt-4 animate-in fade-in slide-in-from-bottom-2">
+                <p className="text-ink font-semibold mb-3">
+                  That gap — personal use high, official use low — is exactly what this workshop closes.
+                </p>
+                {scene.content.bullets && scene.content.bullets.length > 3 && (
+                  <p className="text-sm text-ink-muted bg-surface-muted p-3 rounded-xl border border-line">
+                    {scene.content.bullets[3]}
+                  </p>
+                )}
+              </div>
             )}
-            <ul className="mt-6 space-y-2 text-sm text-ink-muted border-t border-line pt-4">
-              <li className="icon-bullet"><FileText size={16} /><span>Draft notices in minutes</span></li>
-              <li className="icon-bullet"><Search size={16} /><span>Summarise long files with citations</span></li>
-              <li className="icon-bullet"><Video size={16} /><span>Create outreach media safely</span></li>
-            </ul>
           </div>
         )}
         {!showDiagram && !showPoll && (
