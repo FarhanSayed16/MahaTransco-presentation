@@ -2,18 +2,21 @@
   "id": "25-deepfake-drill",
   "title": "Deepfake Drill",
   "act": "IV",
-  "flags": ["core", "lab"],
+  "flags": [
+    "core",
+    "lab"
+  ],
   "layout": "deepfake-drill",
   "content": {
-    "headline": "Deepfake drill — you are both target and verifier",
-    "body": "Senior officers are likely targets of fake voice notes and videos — and the people citizens call when something suspicious circulates. Run this checklist before you forward or act.",
+    "headline": "The Deepfake Defense Protocol",
+    "body": "As a senior officer, you are both a prime target and the final line of defense against viral misinformation. Memorize this 6-step protocol.",
     "bullets": [
-      "PAUSE — urgency (\"forward immediately\") is a manipulation pattern",
-      "SOURCE — verified official channel, or just an unknown forward?",
-      "INSPECT — lip sync, glitches, unnatural audio",
-      "SEARCH — reverse lookup + official posts",
-      "VERIFY — confirm via a second official path (control room / PIO)",
-      "ESCALATE — report through IT / cyber cell; do not publicly amplify first"
+      "PAUSE — a message that says \"forward this immediately\" is often a trick",
+      "SOURCE — is it from a verified official channel, or just a forward from someone?",
+      "CHECK — look for lip-sync issues, glitches, or unnatural sound",
+      "SEARCH — do a reverse image or video search, and check official posts",
+      "CONFIRM — check through a second official channel, like the control room or the PIO",
+      "REPORT — report it to IT or the cyber cell. Do not share it publicly first."
     ]
   }
 }

@@ -2,15 +2,18 @@
   "id": "19-voice",
   "title": "Instant Voice",
   "act": "III",
-  "flags": ["optional", "wow"],
+  "flags": [
+    "optional",
+    "wow"
+  ],
   "layout": "voice-generation",
   "content": {
-    "headline": "AI voice — instant citizen advisories in any language",
-    "body": "Paste a short advisory, generate a Marathi or Hindi voiceover in seconds. Always label synthetic voice before publishing in official channels.",
+    "headline": "AI Voice — Quick Advisories in Any Language",
+    "body": "Paste a short advisory. Make a Marathi or Hindi voice version in seconds. Always say it was made using AI before you publish it on any official channel.",
     "bullets": [
-      "Write a 20–30 second citizen advisory script",
-      "Generate with ElevenLabs or similar tool on Wi-Fi",
-      "Always label: \"This audio was generated using AI\""
+      "Write a 20 to 30 second advisory script",
+      "Make the voice using ElevenLabs or a similar tool",
+      "Always add a label: \"This audio was made using AI\""
     ]
   }
 }

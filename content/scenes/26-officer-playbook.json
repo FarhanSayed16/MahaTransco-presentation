@@ -2,18 +2,20 @@
   "id": "26-officer-playbook",
   "title": "Officer OS Playbook",
   "act": "V",
-  "flags": ["core"],
+  "flags": [
+    "core"
+  ],
   "layout": "officer-playbook",
   "content": {
-    "headline": "The Officer Operating System — your daily AI playbook",
-    "body": "A one-page playbook aligned with IndiaAI's Do No Harm principle: choose tool, choose data tier, prompt with structure, verify, then act.",
+    "headline": "Your Daily AI Playbook",
+    "body": "A simple one-page guide, based on IndiaAI's Do No Harm rule: pick the tool, pick the right data level, write a clear prompt, check the answer, then act.",
     "bullets": [
-      "Step 1: Choose the right tool for the job",
-      "Step 2: Choose the environment by data sensitivity (tiers 1–4)",
-      "Step 3: Use Role · Context · Task · Audience · Tone · Length · Format · Avoid",
-      "Step 4: For long documents, use NotebookLM / RAG — public files only",
-      "Step 5: Verify facts; label SGI / synthetic media where required",
-      "Step 6: Save best prompts and personas; never upload the never-upload list"
+      "Step 1: Pick the right tool for the job",
+      "Step 2: Pick the right level based on how sensitive the data is (Level 1 to 4)",
+      "Step 3: Use Role, Context, Task, Audience, Tone, Length, Format, and what to Avoid",
+      "Step 4: For long documents, use NotebookLM or a similar tool — public files only",
+      "Step 5: Check the facts. Label AI-made content where needed.",
+      "Step 6: Save your best prompts and assistants. Never upload anything from the never-upload list."
     ]
   }
 }

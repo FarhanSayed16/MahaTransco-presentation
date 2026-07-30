@@ -2,11 +2,13 @@
   "id": "28-closing",
   "title": "Closing",
   "act": "V",
-  "flags": ["core"],
+  "flags": [
+    "core"
+  ],
   "layout": "quote",
   "content": {
-    "headline": "AI will not replace officers. Officers who understand AI will outperform those who don't.",
-    "body": "Everything you saw is free or nearly free, works in regional languages, and takes minutes to learn. The real cost is discipline: verify before you rely, and know what never to share.",
-    "quote": "AI will not replace officers. Officers who understand AI will outperform those who don't."
+    "headline": "AI will not replace Humans. It will empower those who embrace it.",
+    "body": "Everything you saw today is free or almost free. It works in Marathi and Hindi too, and takes only minutes to learn. The real work is discipline: always check before you rely on it, and know what you must never share.",
+    "quote": "AI will not replace humans. It will empower those who embrace it."
   }
 }

@@ -2,15 +2,17 @@
   "id": "21-rag-explainer",
   "title": "RAG Explainer",
   "act": "IV",
-  "flags": ["core"],
+  "flags": [
+    "core"
+  ],
   "layout": "rag-explainer",
   "content": {
-    "headline": "Document intelligence — read 90 pages in 60 seconds",
-    "body": "NotebookLM (and similar RAG tools) search your uploaded files first, then answer with page-level citations. That citation is the feature that answers \"can I trust this?\"",
+    "headline": "Read 90 Pages in 60 Seconds",
+    "body": "NotebookLM and similar tools search your uploaded files first, then answer with the page number as proof. That page number is what lets you check if the answer is correct.",
     "bullets": [
-      "Upload a public policy PDF only — never confidential files",
-      "Run four prompts: summarize → deadlines with pages → FAQ → briefing note",
-      "Citations speed verification — they do not replace officer judgment"
+      "Upload only public policy documents. Never upload confidential files.",
+      "Try four prompts: summary → deadlines with page numbers → FAQ → short briefing note",
+      "Page numbers make checking faster. They do not replace the officer's judgment."
     ]
   }
 }
